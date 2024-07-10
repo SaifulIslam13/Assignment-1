@@ -137,3 +137,80 @@ margin-top: 20px;
     object-fit: cover;
     border-radius: 20px;
 }
+
+/* target div style */
+.head-target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.token-target{
+    height: 250px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.ht-head{
+    margin: 20px 0 20px ;
+}
+.learn-target{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.target-div{
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+/* Support style */
+.div-sup{
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 400px 30px 400px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.h2-sup{
+    color: white;
+    margin-top: 30px;
+}
+.p-sup{
+    color: white;
+    margin-top: 20px;
+    opacity: 70%;
+    font-size: 14px;
+}
+.input-sup{
+    margin-top: 30px;
+}
+.input-sup1{
+    height: 30px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.sub-sup{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+/* footer style */
+.foot-style{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e4e9;
+    padding: 20px 300px;
+}
